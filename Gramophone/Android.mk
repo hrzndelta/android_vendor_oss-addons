@@ -3,7 +3,7 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := Gramophone
 LOCAL_SRC_FILES := Gramophone.apk
 LOCAL_MODULE_CLASS := APPS
-LOCAL_OVERRIDES_PACKAGES := Twelve Accord
+LOCAL_OVERRIDES_PACKAGES := Twelve
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 LOCAL_CERTIFICATE := PRESIGNED
 # these lines may break builds before 19.1 so make them conditional
